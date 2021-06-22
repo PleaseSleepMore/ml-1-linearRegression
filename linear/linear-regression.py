@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 # dataset loading
-data=pd.read_csv('./ex1data1.txt',header=None,names=['population','profit'])
+data=pd.read_csv('ex1data1.txt', header=None, names=['population', 'profit'])
 data.head()
 
 data.plot(kind='scatter',x='population',y='profit')
@@ -89,7 +89,7 @@ plt.show()
 
 
 # 多变量线性回归
-data2=pd.read_csv('./ex1data2.txt',names=['size','bedrooms','price'])
+data2=pd.read_csv('ex1data2.txt', names=['size', 'bedrooms', 'price'])
 
 # normalization
 # data.mean 平均值  data.std() 标准差

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 # dataset loading
-data=pd.read_csv('./ex1data1.txt',header=None,names=['population','profit'])
+data=pd.read_csv('ex1data1.txt', header=None, names=['population', 'profit'])
 data.insert(0,'ones',1)
 
 cols=data.shape[1]
